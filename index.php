@@ -23,11 +23,11 @@ if (isset($_SESSION['email'])) {
         <script src="bootstrap/js/bootstrap.min.js"></script>
     </head>
     <body style="padding-top: 50px;">
-       
+
         <!-- Header -->
         <?php include 'includes/header.php'; ?>
         <!-- Header end -->
-        
+
         <div id="content">
             <!-- Main banner image -->
             <div id="banner_image">
@@ -43,7 +43,7 @@ if (isset($_SESSION['email'])) {
                 </div>
             </div>
             <!-- Main banner image end -->
-            
+
             <!-- Item categories listing -->
             <div class="container">
                 <div class="row text-center" id="item_list">
@@ -58,7 +58,7 @@ if (isset($_SESSION['email'])) {
                             </div>
                         </a>
                     </div>
-                    
+
                     <div class="col-sm-4">
                         <a href="products.php#watches">
                             <div class="thumbnail">
@@ -70,7 +70,7 @@ if (isset($_SESSION['email'])) {
                             </div>
                         </a>
                     </div>
-                    
+
                     <div class="col-sm-4">
                         <a href="products.php#shirts">
                             <div class="thumbnail">

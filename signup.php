@@ -26,7 +26,7 @@ if (isset($_SESSION['email'])) {
         <!-- Header : START -->
         <?php include 'includes/header.php'; ?>
         <!-- Header : END -->
-        
+
         <div id="content">
             <!-- Panel : START -->
             <div class="container-fluid color-bg" id="signup-panel">
@@ -38,7 +38,7 @@ if (isset($_SESSION['email'])) {
                                 <h2>Sign Up</h2>
                             </div>
                             <!-- Panel heading : END -->
-                            
+
                             <!-- Panel content : START -->
                             <div class="panel-body">
                                 <form action="signup_script.php" method="POST">
@@ -49,7 +49,7 @@ if (isset($_SESSION['email'])) {
                                         <input class="form-control" placeholder="Email" name="email" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control" placeholder="Password" name="password" required="true" pattern=".{6,}">
+                                        <input type="password" class="form-control" placeholder="Password" name="password" required="true" pattern=".{6,}">
                                     </div>
                                     <div class="form-group">
                                         <input class="form-control" placeholder="Contact" name="contact" maxlength="10" size="10" required>
@@ -70,7 +70,7 @@ if (isset($_SESSION['email'])) {
             </div>
             <!-- Panel : END -->
         </div>
-        
+
         <!-- Footer : START -->
         <?php include 'includes/footer.php'; ?>
         <!-- Footer : END -->
